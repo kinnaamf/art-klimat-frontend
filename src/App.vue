@@ -2,6 +2,7 @@
 import AppHero from "@/components/AppHero.vue";
 import SectionCollaboration from "@/components/sections/SectionCollaboration.vue";
 import SectionService from "@/components/sections/SectionService.vue";
+import AppFooter from "@/components/AppFooter.vue";
 </script>
 
 <template>
@@ -10,6 +11,8 @@ import SectionService from "@/components/sections/SectionService.vue";
 
     <SectionCollaboration class="my-24"/>
     <SectionService class="my-24"/>
+
+    <AppFooter/>
   </div>
 </template>
 
