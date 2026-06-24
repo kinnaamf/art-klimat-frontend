@@ -3,7 +3,7 @@
 </script>
 
 <template>
-<button class="px-6 py-[18px] font-medium bg-orange rounded-2xl">
+<button class="px-6 py-[18px] font-medium text-[20px] bg-orange rounded-2xl">
   Оставить заявку
 </button>
 </template>
