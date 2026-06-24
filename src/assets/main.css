@@ -1,35 +1,22 @@
 @import "tailwindcss";
 
 @font-face {
-  font-family: 'Aeonik';
-  src: url('/fonts/aeonik/Aeonik-Regular.ttf') format('truetype');
+  font-family: 'Aeonik Pro';
+  src: url('/fonts/aeonik-pro/Aeonik-Pro-Regular.ttf') format('truetype');
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Aeonik';
-  src: url('/fonts/aeonik/Aeonik-RegularItalic.ttf') format('truetype');
-  font-weight: 400;
-  font-style: italic;
-}
-
-@font-face {
-  font-family: 'Aeonik';
-  src: url('/fonts/aeonik/Aeonik-Medium.ttf') format('truetype');
+  font-family: 'Aeonik Pro';
+  src: url('/fonts/aeonik-pro/Aeonik-Pro-Medium.ttf') format('truetype');
   font-weight: 500;
   font-style: normal;
 }
 
-@font-face {
-  font-family: 'Aeonik';
-  src: url('/fonts/aeonik/Aeonik-Bold.ttf') format('truetype');
-  font-weight: 700;
-  font-style: normal;
-}
 
 @theme {
-  --font-sans: 'Aeonik', sans-serif;
+  --font-sans: 'Aeonik Pro';
 
   --color-darkgray: #1f1e1e;
   --color-orange: #f06210;
@@ -37,5 +24,5 @@
 }
 
 * {
-  font-family: 'Aeonik', sans-serif;
+  font-family: 'Aeonik Pro', sans-serif;
 }
