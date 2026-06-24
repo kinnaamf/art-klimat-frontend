@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import AppHero from "@/components/AppHero.vue";
 import SectionCollaboration from "@/components/sections/SectionCollaboration.vue";
+import SectionService from "@/components/sections/SectionService.vue";
 </script>
 
 <template>
@@ -8,6 +9,7 @@ import SectionCollaboration from "@/components/sections/SectionCollaboration.vue
     <AppHero/>
 
     <SectionCollaboration class="my-24"/>
+    <SectionService class="my-24"/>
   </div>
 </template>
 
