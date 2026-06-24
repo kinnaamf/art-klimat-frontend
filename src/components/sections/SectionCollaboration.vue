@@ -11,7 +11,7 @@ const {
 </script>
 
 <template>
-  <div>
+  <section>
     <h2 class="text-[4rem] leading-[72px] text-darkgray font-medium">
       Наши <span class="text-orange">Преимущества</span>
     </h2>
@@ -36,7 +36,7 @@ const {
         </div>
       </div>
     </div>
-  </div>
+  </section>
 </template>
 
 <style scoped lang="postcss">

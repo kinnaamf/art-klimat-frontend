@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <section>
     <h2 class="mb-12 text-[#1f1e1e] font-medium text-[4rem] leading-[72px]">
       Полный цикл <span class="text-orange">услуг</span>
     </h2>
@@ -30,7 +30,7 @@
       </div>
 
     </div>
-  </div>
+  </section>
 </template>
 
 <script setup lang="ts">
