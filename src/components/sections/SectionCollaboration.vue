@@ -16,7 +16,7 @@ const {
       Наши <span class="text-orange">Преимущества</span>
     </h2>
 
-    <div class="mt-12">
+    <div class="mt-12 overflow-x-hidden">
       <div
           ref="sliderRef"
           @mousedown="startDragging"
@@ -26,7 +26,7 @@ const {
           class="flex gap-4 w-screen overflow-x-auto scrollbar-none select-none cursor-grab active:cursor-grabbing">
         <div v-for="slide in sliderData" class="bg-white w-[375px] h-[500px] flex flex-col shrink-0 rounded-2xl">
           <div class="px-16 pt-16 pb-8">
-            <component :is="slide.icon"/>
+            <component :is="slide.icon" class="w-[247px] h-[244px]"/>
           </div>
 
           <div class="flex flex-col gap-2 p-8">
