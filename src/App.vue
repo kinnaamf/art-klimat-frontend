@@ -7,6 +7,7 @@ import SectionProduction from "@/components/sections/SectionProduction.vue";
 import SectionCooperation from "@/components/sections/SectionCooperation.vue";
 import SectionProducts from "@/components/sections/SectionProducts.vue";
 import SectionCompletedProjects from "@/components/sections/SectionCompletedProjects.vue";
+import SectionAbout from "@/components/sections/SectionAbout.vue";
 </script>
 
 <template>
@@ -19,6 +20,7 @@ import SectionCompletedProjects from "@/components/sections/SectionCompletedProj
     <SectionCooperation class="my-24"/>
     <SectionProducts class="pt-[128px] pb-24"/>
     <SectionCompletedProjects class="pt-20 pb-[128px]"/>
+    <SectionAbout class="py-[128px]"/>
 
     <AppFooter/>
   </div>
